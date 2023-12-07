@@ -15,4 +15,9 @@ public class LevelManager : MonoBehaviour
             Cursor.visible = true;
         }
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
